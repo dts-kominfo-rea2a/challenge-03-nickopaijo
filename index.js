@@ -24,8 +24,8 @@ const dataBelanjaan = [
 const listBelanjaan = (data) => {
   let hasil = [];
   for (let i = 0; i < data.length; i++) {
-    let isi = "-" + " " + data[i].nama + " x " + data[i].kuantitas;
-    hasil.push(isi);
+    let detail = "-" + " " + data[i].nama + " x " + data[i].kuantitas;
+    hasil.push(detail);
   }
   return hasil;
 };
